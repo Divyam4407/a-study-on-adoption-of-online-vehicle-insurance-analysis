@@ -12,26 +12,21 @@ The empirical model bridges utilitarian technology adoption theory with executor
 
 
 # 3. Repository Architecture
-├── data/
-│   ├── raw/
-│   │   └── survey_responses_raw.xlsx          # Raw survey output (N=237)
-│   ├── processed/
-│   │   ├── survey_responses_audited_232.csv   # Screened & validated dataset (N=232)
-│   │   └── data_dictionary.md                 # Complete variable codebook
-├── notebooks/
-│   ├── 01_data_cleaning_and_validation.ipynb  # Screening audit & missing data checks
-│   ├── 02_scale_reliability_cronbach.ipynb    # Item variances & Cronbach's Alpha
-│   ├── 03_descriptive_and_bivariate.ipynb     # Frequencies, crosstabs, and Chi-square
-│   └── 04_econometric_modeling.ipynb          # Binary Logistic Regression & OLS models
-├── scripts/
-│   ├── run_all_analysis.py                    # End-to-end command-line reproduction
-│   └── econometric_utils.py                   # Helper functions for odds ratios & diagnostics
-├── outputs/
-│   ├── tables/                                # Exported regression and crosstab CSVs
-│   └── figures/                               # Exported charts and model plots
-├── requirements.txt                           # Frozen Python dependencies
-├── LICENSE                                    # Open-source license (MIT)
-└── README.md                                  # Repository documentation
+data/raw/survey_responses_raw.xlsx (Raw survey output (N=237))
+processed/survey_responses_audited_to_232 (Screened & validated dataset (N=232))
+
+data_dictionary.md
+notebooks/01_data_cleaning_and_validation.ipynb
+02_scale_reliability_cronbach.ipynb
+03_descriptive_and_bivariate.ipynb
+04_econometric_modeling.ipynb
+
+scripts/run_all_analysis.py
+econometric_utils.py
+outputs/tables/figures
+
+LICENSE
+README.md
 
 
 # 4. Installation and Setup
