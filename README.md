@@ -43,19 +43,19 @@ Clone the repository:
 git clone [https://github.com/your-username/online-motor-insurance-adoption-bengaluru.git](https://github.com/your-username/online-motor-insurance-adoption-bengaluru.git)
 cd online-motor-insurance-adoption-bengaluru
 
-# Create and activate a virtual environment:
-# On macOS/Linux
+Create and activate a virtual environment:
+On macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
-# On Windows
+On Windows
 python -m venv venv
 venv\Scripts\activate
 
-# Install required dependencies:
+Install required dependencies:
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Core Dependencies (requirements.txt)
+Core Dependencies (requirements.txt)
 Plaintext
 numpy>=1.23.0
 pandas>=1.5.0
