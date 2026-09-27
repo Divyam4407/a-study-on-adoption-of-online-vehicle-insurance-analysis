@@ -12,14 +12,14 @@ The empirical model bridges utilitarian technology adoption theory with executor
 
 
 # 3. Repository Architecture
-data/raw/survey_responses_raw.xlsx (Raw survey output (N=237))
-processed/survey_responses_audited_to_232 (Screened & validated dataset (N=232))
+data - raw - (Raw survey output (N=237))
+processed survey_responses_audited_to_232 (Screened & validated dataset (N=232))
 
 data_dictionary.md
-notebooks/01_data_cleaning_and_validation.ipynb
-02_scale_reliability_cronbach.ipynb
-03_descriptive_and_bivariate.ipynb
-04_econometric_modeling.ipynb
+data_cleaning_and_validation.ipynb
+scale_reliability_cronbach.ipynb
+descriptive_and_bivariate.ipynb
+econometric_modeling.ipynb
 
 scripts/run_all_analysis.py
 econometric_utils.py
